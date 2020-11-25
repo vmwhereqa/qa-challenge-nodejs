@@ -6,7 +6,7 @@ import {
 } from '../testData/testData';
 import getResponse from '../util/superTest';
 
-describe('Validating routing to odd stream based on input', function () {
+describe('Validating routing to odd stream', function () {
   validOddNumbers.forEach((number) => {
     test(`should request successfully when ${number} is provided`, async function () {
       const response = await getResponse(number);
@@ -23,7 +23,7 @@ describe('Validating routing to odd stream based on input', function () {
   });
 });
 
-describe('Validating routing to even stream based on input', function () {
+describe('Validating routing to even stream', function () {
   validEvenNumbers.forEach((number) => {
     test(`should request successfully when ${number} is provided`, async function () {
       const response = await getResponse(number);
