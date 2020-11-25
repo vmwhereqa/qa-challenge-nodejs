@@ -12,7 +12,8 @@ This Automation testing framework primarily uses Jest as test runner and below a
   - Test Data driven - As the scenarios are test data driven. To test more inputs, just need to add data "testData"
 
 
-### Installation
+
+## Installation
 
 Requires [Node.js](https://nodejs.org/) to run.
 
@@ -21,6 +22,11 @@ Install the dependencies and devDependencies and start the server.
 ```sh
 $ yarn
 ```
+
+## Configuration
+
+Modify ```.env``` file to change the end point from local to aws
+
 ## Test cases
 
 Below are the scenarios on high level. Detailed implementation is in ``` src/test/routing.test.js ```
