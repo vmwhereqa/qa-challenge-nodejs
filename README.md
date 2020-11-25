@@ -17,7 +17,7 @@ This Automation testing framework primarily uses Jest as test runner and below a
 
 Requires [Node.js](https://nodejs.org/) to run.
 
-Install the dependencies and devDependencies and start the server.
+Install the dependencies and devDependencies
 
 ```sh
 $ yarn
